@@ -1,0 +1,62 @@
+<%- include('../includes/head.ejs') %>
+
+<link rel="stylesheet" href="/css/products/mqsstylesproducts.css">
+</head>
+
+<body>
+
+    <%- include('../includes/navigation.ejs') %>
+    <main>
+
+        <h1>Ordenes de Inventario</h1>
+      
+        <% if (errorMessage) { %>
+          <p class="error-message">ERROR: <%= errorMessage %></p>
+          <% } %>
+          <% if (!orders) { %>
+            <h2> No hay ordenes registradas.</h2>
+            <%  }else{ %>
+      <div class="container">
+            <table class="table">
+                <thead>                 
+                    <th >#</th>
+                    <th >Motivo</th>
+                    <th >Id Estado</th>
+                    <th >Estado de Orden</th>
+                    <th >Opciones</th>                  
+                </thead>
+                <tbody>
+                    <% for (var order of orders) { %>
+                  <tr>
+                    <td data-label="Id"><%= order.id %></td>                    
+                    
+
+                    <td data-label="Motivo"><%= order.orderDescription %></td>
+                  
+
+                    <td data-label="Id Estado"> <%= order.statusId %> </td>
+
+                    <td data-label="Estado"><%= order.statusDescription %> </td>
+                   
+                    <td data-label="Opciones"> <a  href="/warehouse/inventory-orders/products/<%= order.id %>"><input type="image" src="/media/configuraciones.png" alt="Submit" width="20px"></a>                       
+                    </td>
+                 
+                  </tr>
+                  
+                
+        
+                  <% } %>
+                  
+                </tbody>
+              </table>
+              <%  } %>
+        
+      
+            </div>
+        
+
+    </main>
+
+    <%- include('../includes/footer.ejs') %>
+    <%- include('../includes/end.ejs') %>
+
