@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>Administration Restaurant Siglo XXI</value>
+  </data>
+  <data name="ButtonAccept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="ButtonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="ButtonApprove" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ButtonClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ButtonConfirm" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="ButtonEdit" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ButtonReject" xml:space="preserve">
+    <value>Reject</value>
+  </data>
+  <data name="CreateProduct" xml:space="preserve">
+    <value>Add a new product</value>
+  </data>
+  <data name="CTableCreated" xml:space="preserve">
+    <value>Table created successfuly</value>
+  </data>
+  <data name="CTableDeleted" xml:space="preserve">
+    <value>The table has been successfuly deleted</value>
+  </data>
+  <data name="CTablesFilterById" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CTableUpdated" xml:space="preserve">
+    <value>This table has been updated successfuly</value>
+  </data>
+  <data name="CustomerDeleted" xml:space="preserve">
+    <value>Customer deleted!</value>
+  </data>
+  <data name="CustomerField" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="CustomerFieldEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="CustomerFieldId" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="CustomerFieldLastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="CustomerFieldName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CustomerFieldPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CustomerFieldUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="CustomerFieldUsertype" xml:space="preserve">
+    <value>User Type</value>
+  </data>
+  <data name="CustomersFilterByName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CustomersFilterByUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="CustomersPageTitle" xml:space="preserve">
+    <value>CUSTOMERS</value>
+  </data>
+  <data name="CustomerUpdated" xml:space="preserve">
+    <value>Customer updated!</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="EditCTable" xml:space="preserve">
+    <value>Updating table</value>
+  </data>
+  <data name="EditCustomer" xml:space="preserve">
+    <value>Customer Information</value>
+  </data>
+  <data name="EditProduct" xml:space="preserve">
+    <value>Update product information</value>
+  </data>
+  <data name="ErrorMsg" xml:space="preserve">
+    <value>Conection error</value>
+  </data>
+  <data name="LabelSearch" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="LanguageEN" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LanguageES" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="NewCTable" xml:space="preserve">
+    <value>Add table</value>
+  </data>
+  <data name="NewCustomer" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="OrderApproved" xml:space="preserve">
+    <value>The order has been approved successfuly</value>
+  </data>
+  <data name="OrderRejected" xml:space="preserve">
+    <value>The order has been rejected successfuly</value>
+  </data>
+  <data name="OrdersPageTitle" xml:space="preserve">
+    <value>Restock Orders</value>
+  </data>
+  <data name="OtrosPageTitle" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="ProductCreated" xml:space="preserve">
+    <value>Product added succesfuly!</value>
+  </data>
+  <data name="ProductDeleted" xml:space="preserve">
+    <value>Product deleted!</value>
+  </data>
+  <data name="ProductFieldCreado" xml:space="preserve">
+    <value>Created on</value>
+  </data>
+  <data name="ProductFieldId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ProductFieldName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ProductFieldQuantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="ProductFieldUpdated" xml:space="preserve">
+    <value>Updated at</value>
+  </data>
+  <data name="ProductFilterById" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="ProductFilterByName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ProductsPageTitle" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="ProductUpdated" xml:space="preserve">
+    <value>Product updated!</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Pick a language</value>
+  </data>
+  <data name="SettingsPageAboutText" xml:space="preserve">
+    <value>Software for data maintenance for the restaurant "Siglo XXI"</value>
+  </data>
+  <data name="SettingsPageAboutTitle" xml:space="preserve">
+    <value>About this application</value>
+  </data>
+  <data name="SettingsPageChooseThemeText" xml:space="preserve">
+    <value>Pick a theme</value>
+  </data>
+  <data name="SettingsPagePersonalizationTitle" xml:space="preserve">
+    <value>Customization</value>
+  </data>
+  <data name="SettingsPagePrivacyStatementText" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="SettingsPageRadioButtonDarkTheme" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+  <data name="SettingsPageRadioButtonLightTheme" xml:space="preserve">
+    <value>Light</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ShellCustomersPage" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="ShellGoBackButton" xml:space="preserve">
+    <value>Go back</value>
+  </data>
+  <data name="ShellHamburgerButtonName" xml:space="preserve">
+    <value>Open or close navigation</value>
+  </data>
+  <data name="ShellMainPage" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="ShellOtrosPage" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="ShellProductsPage" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="ShellSettingsPage" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ShellTablesPage" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="TableFieldCapacity" xml:space="preserve">
+    <value>Seats</value>
+  </data>
+  <data name="TableFieldCustomerId" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="TableFieldId" xml:space="preserve">
+    <value>Table ID</value>
+  </data>
+  <data name="TableFieldWaiterId" xml:space="preserve">
+    <value>Waiter ID</value>
+  </data>
+  <data name="TablesPageTitle" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="UpdateCustomerPageTitle" xml:space="preserve">
+    <value>Update Customer</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version 0.11</value>
+  </data>
+  <data name="WarningMsgBoxApprove" xml:space="preserve">
+    <value>Are you sure you wish to approve the order?</value>
+  </data>
+  <data name="WarningMsgBoxChooseOneCustomer" xml:space="preserve">
+    <value>You must pick a customer</value>
+  </data>
+  <data name="WarningMsgBoxChooseOneProduct" xml:space="preserve">
+    <value>You must pick a product</value>
+  </data>
+  <data name="WarningMsgBoxChooseOneTable" xml:space="preserve">
+    <value>You must pick a table first</value>
+  </data>
+  <data name="WarningMsgBoxDeleteCTable" xml:space="preserve">
+    <value>Are you sure you wish to delete the table?</value>
+  </data>
+  <data name="WarningMsgBoxDeleteCustomer" xml:space="preserve">
+    <value>Are you sure you wish to delete the customer?</value>
+  </data>
+  <data name="WarningMsgBoxDeleteOrder" xml:space="preserve">
+    <value>Are you sure you wish to reject the order?</value>
+  </data>
+  <data name="WarningMsgBoxDeleteProduct" xml:space="preserve">
+    <value>Are you sure you wish to delete the product?</value>
+  </data>
+  <data name="WarningMsgBoxEdit" xml:space="preserve">
+    <value>All data will be saved</value>
+  </data>
+  <data name="WarningMsgBoxInvalidEmail" xml:space="preserve">
+    <value>The email is not valid</value>
+  </data>
+  <data name="WarningMsgBoxInvalidLastName" xml:space="preserve">
+    <value>The last name is not valid</value>
+  </data>
+  <data name="WarningMsgBoxInvalidName" xml:space="preserve">
+    <value>The name is not valid</value>
+  </data>
+  <data name="WarningMsgBoxInvalidQuantity" xml:space="preserve">
+    <value>Not a valid quantity</value>
+  </data>
+  <data name="WarningMsgBoxTitle" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="WelcomeMsg" xml:space="preserve">
+    <value>Welcome to the administration software of the restaurant "Siglo XXI"</value>
+  </data>
+</root>
