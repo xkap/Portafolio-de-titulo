@@ -1,0 +1,173 @@
+<div id="container">
+    <header id="topmenu" role="menu">
+        <!-- Top bar -->
+
+
+        <!--Se obtiene el rol para determinar el menú que se le muestra-->
+        
+
+
+        <div class="mobile-menu">
+            <!-- Menu icon for screens under 800px -->
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+
+        <% switch (roleId) {
+            case '2': %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+
+        </nav>
+        <% break; %>
+
+
+
+        <% case '3': %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+            <a href="/warehouse/products">Insumos</a>
+            <a href="/warehouse/recipes">Recetas</a>
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+            <a href="/warehouse/products">Insumos</a>
+            <a href="/warehouse/recipes">Recetas</a>
+        </nav>
+        <% break; %>
+
+
+
+        <% case '4': %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+            <a href="/finance/income">Reportes</a>
+            <a href="/finance/customer-orders">Administrar Ordenes</a>
+
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+            <a href="/finance/income">Reportes</a>
+            <a href="/finance/customer-orders">Administrar Ordenes</a>
+
+
+        </nav>
+        <% break; %>
+
+
+
+        <% case '5': %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+            <a href="#">Tabla de Órdenes</a>
+            <a href="/#">Ingresar Recetas</a>
+
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+            <a href="#">Tabla de Órdenes</a>
+            <a href="/#">Ingresar Recetas</a>
+
+        </nav>
+        <% break; %>
+
+
+        <% case '6': %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+            <a href="/admin/tables">Mesas</a>
+
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+            <a href="/admin/tables">Mesas</a>
+
+        </nav>
+        <% break; %>
+
+
+
+        <% default: %>
+        <div id="mobile-menu-pages">
+            <a href="/">Inicio</a>
+            <a href="/orders">Órdenes</a>
+            <a href="/reservations">Reservas</a>
+        </div>
+
+        <div id="logo">
+            <a href="/"><img src="/media/logo.png"></a>
+        </div>
+
+        <nav id="menu-pages">
+            <!-- Main links -->
+            <a href="/">Inicio</a>
+            <a href="/orders">Órdenes</a>
+            <a href="/reservations">Reservas</a>
+        </nav>
+
+        <% break; } %>
+
+
+
+        <!--Se comprueba existencia de Token para ver si el boton es de Login o Logout-->
+        <% if (userId) { %>
+        <div id="mobile-logout-icon">
+            <form action="/auth/logout" method="POST" id="form-logout">
+                <button type="submit"><i class="fas fa-user"></i></a>
+            </form>
+        </div>
+        <% } else { %>
+        <div id="mobile-login-icon">
+            <a href="/auth/login"><i class="fas fa-user"></i></a>
+        </div>
+        <% } %>
+
+
+        <nav id="menu-main-pages">
+
+            <!--Se comprueba existencia de Token para ver si el boton dice Login o Logout-->
+            <% if (userId) { %>
+            <form action="/auth/logout" method="POST" id="form-logout">
+                <button id="btn-logout" type="submit"><i class="fas fa-user"></i>Cerrar Sesión</a>
+            </form>
+            <% } else { %>
+            <a href="/auth/login" id="btn-login"><i class="fas fa-user"></i>Login</a>
+            <% } %>
+        </nav>
+    </header>
