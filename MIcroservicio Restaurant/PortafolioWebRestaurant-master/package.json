@@ -1,0 +1,32 @@
+{
+  "name": "portafoliowebrestaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rffrench/PortafolioWebRestaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rffrench/PortafolioWebRestaurant/issues"
+  },
+  "homepage": "https://github.com/Rffrench/PortafolioWebRestaurant#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "amqplib": "^0.6.0",
+    "archiver": "^5.0.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  }
+}
